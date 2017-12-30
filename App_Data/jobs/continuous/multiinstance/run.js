@@ -8,7 +8,7 @@ function worker() {
 
     setTimeout(() => {
 
-        console.log('Hello World')
+        console.log('Hello World from ' + process.env.WEBSITE_INSTANCE_ID);
 
         // do it again
         worker();
